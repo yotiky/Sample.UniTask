@@ -5,7 +5,7 @@ using Cysharp.Threading.Tasks;
 using System;
 using System.Runtime.CompilerServices;
 
-public class Sample : MonoBehaviour
+public class UniTaskSample : MonoBehaviour
 {
     // Start is called before the first frame update
     async void Start()
