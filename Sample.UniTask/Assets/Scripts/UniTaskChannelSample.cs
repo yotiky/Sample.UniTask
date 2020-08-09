@@ -7,7 +7,7 @@ using System.Linq;
 using System.Threading;
 using UnityEngine;
 
-public class ChannelSample : MonoBehaviour
+public class UniTaskChannelSample : MonoBehaviour
 {
     void Start()
     {
@@ -31,7 +31,7 @@ public class ChannelSample : MonoBehaviour
         writer.TryWrite("3");
 
         writer.TryComplete();
-
+        
         //writer.TryComplete(new Exception(""));
     }
 
